@@ -1,0 +1,140 @@
+﻿html, body 
+{
+  	font:14px Arial, Helvetica, sans-serif;
+  	color:#333;
+  	background:#fff;
+	-moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%; /* Современные браузеры */
+  	text-align:center;
+  	border:1;
+}
+
+.header
+{
+	margin:0 auto;
+	width:80%;
+	height:100%;
+	background:#fff;
+	border-collapse: separate; 
+}
+
+.top, .content, .menu, .footer
+{
+	width:100%;
+  	height:100%;
+}
+
+.menu
+{
+	width:200px;
+}
+
+
+.top
+{
+	border-spacing:0;
+}
+
+.top_left, .top_right
+{
+	border:1px solid #fff;
+	padding:5px 20px;
+	background:#fff;
+}
+
+.top_left
+{
+	border-radius:8px 0 0 8px;
+	border-right-width:0;
+	text-align:left;
+background:#fff;
+}
+
+.top_right
+{
+	border-radius:0 8px 8px 0;
+	border-left-width:0;
+	text-align:right;
+background:#fff;
+}
+
+.footer
+{
+	text-align:center;
+	font-size:14px;
+	background:#fff;
+}
+
+.menu td, .content_td
+{
+	border:1px solid #000;
+	border-radius:10px;
+	vertical-align:top;
+	padding-top:15px;
+	padding-bottom:15px;
+	position:relative;
+}
+
+.menu td
+{
+	background:#e7e7e7;
+	text-align:center;
+}	
+
+.menu ul
+{
+	list-style-type:none;
+	margin:0px;
+	padding-left:0px;
+}	
+
+.menu a
+{
+	text-decoration:none;
+	color:black; 
+	background:#FFF;
+	display:block;
+	padding:10px;
+	border-radius:5px;
+	border: 1px solid #0000fa
+}
+
+.menu a:hover 
+{
+  background:blue;
+  color:white; 
+}
+
+.menu li
+{
+	margin-bottom:2px;
+}
+
+.content_td div
+{
+	display:block;
+	text-align:justify;
+	padding-left:20px;
+	padding-right:20px;
+	width:800;
+}
+
+.table
+{
+	width:100%; 
+}
+
+.table th
+{
+	background:#e7e7e7;
+}
+
+.data
+{
+	width:800px;
+	margin:auto;
+}
+
+
